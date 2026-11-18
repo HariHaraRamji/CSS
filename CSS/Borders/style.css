@@ -1,0 +1,13 @@
+h1{
+    border:3px solid black;
+    border-radius:30px
+}
+p{
+    border-bottom: 3px solid violet;
+    border-top:3px solid navy;
+    border-left:3px dashed yellow;
+    border-right:3px dotted grey;
+}
+h1{
+    color: rgb(238, 0, 0);
+}

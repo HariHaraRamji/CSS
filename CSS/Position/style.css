@@ -1,0 +1,45 @@
+#box1{
+    width:200px;
+    height:200px;
+    background-color: aqua;
+    position:sticky;
+    top:0px;
+    
+}
+#box2{
+    width:100px;
+    height:100px;
+    background-color: brown;
+    position:absolute;
+    top:50px;
+    left:50px;
+}
+/* static
+   → Default position of an element.
+   → Follows the normal document flow.
+   → top, bottom, left and right don't work.
+*/
+
+/* relative
+   → Stays in the normal document flow.
+   → Can be moved from its original position.
+   → Uses top, bottom, left or right to move.
+*/
+
+/* absolute
+   → Removed from the normal document flow.
+   → Positioned relative to the nearest positioned parent.
+   → Commonly used for overlays, icons and badges.
+*/
+
+/* fixed
+   → Removed from the normal document flow.
+   → Positioned relative to the browser viewport.
+   → Stays in the same place even when scrolling.
+*/
+
+/* sticky
+   → Behaves like a normal element initially.
+   → When scrolling reaches the specified position, it sticks.
+   → Commonly used for sticky navigation bars.
+*/

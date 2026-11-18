@@ -1,0 +1,24 @@
+body{
+    background-color: black
+}
+h1{
+    color: aliceblue;
+}
+/* #p1{
+    color: rgb(10, 231, 43);
+}
+#p2{
+    color: rgb(84, 82, 99);
+}
+#p3{
+    color: rgb(239, 14, 37);
+}
+#p4{
+    color: rgb(224, 239, 11);
+} */
+ .odd{
+    color: aqua;
+ }
+ .even{
+    color: darkgoldenrod;
+ }

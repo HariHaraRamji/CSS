@@ -1,0 +1,35 @@
+#container{
+    border:3px solid;
+}
+#container +  p{
+    background-color: aqua;
+}
+
+/* ==========================================
+   CSS COMBINATORS
+   ========================================== */
+
+/* 1. DESCENDANT COMBINATOR (space)
+   → Selects all matching descendants inside an element.
+   → Includes children, grandchildren, and deeper elements.
+   Example: .container p
+*/
+
+/* 2. CHILD COMBINATOR (>)
+   → Selects only direct children of an element.
+   → Does not select grandchildren or deeper descendants.
+   Example: .container > p
+*/
+
+/* 3. ADJACENT SIBLING COMBINATOR (+)
+   → Selects the immediately following sibling.
+   → Both elements must have the same parent.
+   Example: h1 + p
+*/
+
+/* 4. GENERAL SIBLING COMBINATOR (~)
+   → Selects all matching following siblings.
+   → Both elements must have the same parent.
+   Example: h1 ~ p
+*/
+
